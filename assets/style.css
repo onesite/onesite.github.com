@@ -1,0 +1,243 @@
+html {
+}
+
+body {
+  font: 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.4;
+  color: #666;
+  min-width: 960px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #333;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #0084b4;
+}
+
+a:link, a:visited {
+  color: #0084b4;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.onesite-logo {
+    background: url("logo.png") no-repeat scroll 0 50% transparent;
+    border-left-width: 0;
+	display: block;
+	float: left;
+	margin-top: 2px;
+    text-indent: -9999px;
+    width: 143px;
+	height: 28px;
+}
+
+#wrapper {
+  overflow: hidden;
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+#main {
+  height: 250px;
+  text-align: center;
+}
+
+#main, div.header, li.repo {
+  margin-bottom: 20px;
+   border: 0px solid #cccccc;
+   background: #f9f9f9;
+   background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f9f9f9));
+   background: -webkit-linear-gradient(top, #ffffff, #f9f9f9);
+   background: -moz-linear-gradient(top, #ffffff, #f9f9f9);
+   background: -ms-linear-gradient(top, #ffffff, #f9f9f9);
+   background: -o-linear-gradient(top, #ffffff, #f9f9f9);
+   background-image: -ms-linear-gradient(top, #ffffff 0%, #f5f5f5 100%);
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+   -webkit-box-shadow: rgba(000,000,000,0.9) 0 0px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+   -moz-box-shadow: rgba(000,000,000,0.2) 0 0px 2px, inset rgba(255,255,255,0.4) 0 0px 0;
+   box-shadow: rgba(000,000,000,0.5) 0 0px 2px, inset rgba(255,255,255,0.7) 0 0px 0;
+}
+
+#main h1 {
+  margin: 30px 0;
+}
+
+#main h1, #main p {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#main p {
+  font-size: 12px;
+  line-height: 2;
+}
+
+#logo {
+  width: 95px;
+  height: 58px;
+  margin: 30px auto 20px;
+  background: url("open-source.png");
+  text-indent: -99999px;
+}
+
+#logo h1 {
+  margin: 0;
+}
+
+div.header {
+  height: 130px;
+}
+
+div.header h1, div.header p {
+  margin: 10px 15px 0;
+}
+
+div.header h1 {
+  margin-bottom: 10px;
+}
+
+#num-repos, #num-members {
+  font-size: 14px;
+  font-weight: bold;
+  color: #0084b4;
+  line-height: 15px;
+}
+
+#statistics a:link, #statistics a:visited {
+  color: inherit;
+}
+
+#statistics p.email {
+  margin-top: 6px;
+  font-size: 11px;
+}
+
+#recently-updated h1 a {
+  font-weight: normal;
+  font-size: 11px;
+}
+
+#recently-updated-repos {
+  margin-left: 15px;
+}
+
+#recently-updated-repos li {
+  line-height: 1.5;
+}
+
+#recently-updated-repos li span {
+  display: inline-block;
+  padding: 0 1px;
+}
+
+#recently-updated-repos li span {
+  font-size: 11px;
+}
+
+#recently-updated-repos li span.name {
+  padding: 0 6px 0 0;
+  font-size: 13px;
+}
+
+#recently-updated-repos li span.time a,
+#recently-updated-repos li span.watchers a,
+#recently-updated-repos li span.forks a {
+  color: #999;
+}
+
+li.repo {
+  	height: 250px;
+}
+
+li.repo > a {
+  display: block;
+  width: 100%;
+  height: 245px;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+}
+
+li.repo a:hover {
+  background: #FFF;
+  background: rgba(0, 0, 0, 0.04);
+	background-image:url(repo-header.png);
+	background-repeat: no-repeat;
+}
+
+li.repo h2, li.repo h3, li.repo p {
+  margin: 10px 15px;
+}
+
+li.repo h2 {
+  margin-bottom: 2px;
+  margin-top: 30px;
+}
+
+li.repo h3 {
+  font-size: 11px;
+  margin-top: 2px;
+  margin-bottom: 15px;
+  color: #999;
+}
+
+.repo a {
+	background-image:url(repo-header.png);
+	background-repeat: no-repeat;
+	border-bottom: 5px solid #0080b0;
+}
+.repo.java a {
+  border-bottom-color: #f99b22;
+}
+.repo.javascript a {
+  border-bottom-color: #333;
+}
+.repo.php a {
+  border-bottom-color: #a56dc9;
+}
+.repo.scala a {
+  border-bottom-color: #7ac9de;
+}
+
+.repo.ruby a {
+  border-bottom-color: #cc1100;
+}
+
+.repo.java a {
+  border-bottom-color: #f99b22;
+}
+
+.repo.python a {
+  border-bottom-color: #6aad2d;
+}
+
+#masthead {background: url("bg_menu.png") repeat-x scroll 0 0 transparent;box-shadow: 0 1px 3px #555555;height: 39px; line-height: 39px;position: relative;z-index: 5;}
+#masthead .top-nav {float: right !important;padding: 10px 0;}
+#masthead li {float: left;}
+#masthead #wrapper {padding: 0;}
+.region-menu-inner {float: right;}
+
+/* main navigation */
+nav.navigation {line-height: 35px; font-size: 12px; display: block; margin-top: 1px; margin-bottom: 0;}
+nav.navigation li {line-height: 35px; display: inline-block; margin: 0; border-right: 1px solid #2A2C2D; padding: 0; float: right;}
+nav.navigation a {line-height: 35px; display: inline-block; border-left: 1px solid #46494B; color: #d4d4d4; text-shadow: 0 1px 1px #000; font-weight: bold; text-decoration: none; padding: 0 1.25em;}
+nav.navigation a:hover,
+nav.navigation a.active,
+nav.navigation .active {background: url('bg_menu_active.png') 0 0 repeat-x; color: #fff;}
+nav.navigation #main-menu li.first {border-right-width: 0; float: left;}
+nav.navigation #main-menu li.first a {background: url('logo.png') 0 50% no-repeat; border-left-width: 0; width: 118px; text-indent: -9999px;}
+#sub-wrapper {background: url("temp_bg_hero.png") repeat-x scroll 0 0 transparent;border-bottom: 2px solid #71C0E7;}
+#sub-wrapper #wrapper {padding: 17px;}
